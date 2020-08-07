@@ -1,0 +1,78 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <title>Signup Page</title>
+
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+
+
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <form class="form-signin" id="myForm" method="POST" action="/">
+  <div class="text-center mb-4">
+    <img class="mb-4" src="images/newspaper-1.1s-800px.png" alt="" width="200" height="200">
+    <h3>Signup to my NewsLetter!</h3>
+  </div>
+
+  <div class="form-label-group">
+    <input type="text" id="firstname" class="form-control" name="firstname" placeholder="Enter your FirstName" required autofocus>
+    <label for="firstname">FirstName</label>
+  </div>
+
+  <div class="form-label-group">
+    <input type="text" id="lastname" class="form-control" name="lastname" placeholder="Enter your LastName" required autofocus>
+    <label for="lastname">LastName</label>
+  </div>
+
+  <div class="form-label-group">
+    <input type="email" id="inputEmail" class="form-control" name="inputEmail" placeholder="Email address" required autofocus>
+    <label for="inputEmail">Email address</label>
+  </div>
+
+
+  
+  <button class="btn btn-lg btn-primary btn-block" type="submit">Sign Me Up!</button>
+  <p class="mt-5 mb-3 text-muted text-center">&copy; NewsLetter</p>
+</form>
+
+<!-- <script>
+    document.querySelector(".btn").addEventListener("click",function(e) {
+            e.preventDefault();
+            this.innerHTML="Thanks For Signing Up!"
+            setTimeout(() => {
+                document.getElementById("myForm").reset();
+                this.innerHTML="Sign Me Up!"
+            },1500);
+           
+    })
+</script> -->
+</body>
+</html>
